@@ -79,7 +79,6 @@ const Home = () => {
         </ul>
       </div>
     </>
-
     // <div>
     //   <input
     //     value={name}
