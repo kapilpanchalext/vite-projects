@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import Products from './components/Products';
 import Root from './components/Root';
+import UserDetailsForm from './components/UserDetailsForm';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/user-details",
+        element: <UserDetailsForm />,
       }
     ]
   },

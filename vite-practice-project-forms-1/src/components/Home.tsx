@@ -61,6 +61,8 @@ const Home = () => {
       <h1>Home Page</h1>
       <Link to="/products">Go to Products</Link>
       <br />
+      <Link to="/user-details">Go to User Details</Link>
+      <br />
 
       <div style={{ padding: '1rem' }}>
         <h1>Users</h1>
